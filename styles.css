@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+  }
+
+body{
+    margin: 0;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.titulo1{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 25px;
+}
+
+.title{
+    width: 33.4%;
+}
+
+.title span{
+    font-weight: bolder
+}
+
+.main{
+    width: 66.4%;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.main img{
+    width: 100%;
+}
+
+/*Aqui Empieza La Segunda Parte*/
+
+.container{
+    width: 100%;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item{
+    width: 33.3%;
+    padding: 0 10px;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right img{
+    width: 100%;
+}
+
+.centre{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.centre img{
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+.left img{
+    width: 100%;
+}
+
+.foot{
+    font-weight: lighter;
+    color: red;
+}
+
+.titulo{
+    width: 70%;
+    margin: 0 auto;
+}
